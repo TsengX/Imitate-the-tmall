@@ -1,0 +1,32 @@
+body {
+  font-size: 12px;
+  font-family: Arial;
+}
+
+a {
+  color: #999;
+}
+
+.redColor {
+  color: #FF0036 !important;
+}
+
+.top {
+  background-color: #f2f2f2;
+  padding: 5px 0px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.top_middle {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.top span,.top a {
+  color: 999;
+  margin: 0 10px;
+}
+
+.top a:hover {
+  color: #FF0036;
+  text-decoration: none;
+}

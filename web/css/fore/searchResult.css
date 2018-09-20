@@ -1,0 +1,102 @@
+.searchResultDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+    min-height: 300px;
+}
+
+/*productBySearch.jsp*/
+.productUnit {
+    float: left;
+    width: 225px;
+    height: 338px;
+    border: 3px solid #fff;
+    background-color: white;
+    margin: 12px 5px;
+    padding: 0;
+}
+
+.productUnit:hover {
+    border: 3px solid #C40000;
+}
+
+.productUnitFrame {
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.productUnitFrame:hover {
+    border: 1px solid #C40000;
+}
+
+.productUnit img.productImage {
+    width: 100%;
+    height: 190px;
+}
+
+.productUnit span.productPrice {
+    font-size: 20px;
+    color: #CC0000;
+    display: block;
+    padding-left: 4px;
+}
+
+.productUnit a.productLink {
+    margin: 10px 0;
+    color: #333333;
+    display: block;
+    height: 34px;
+}
+
+.productUnit a.productLink:hover {
+    text-decoration: underline;
+    color: #C40000;
+}
+
+.productUnit a.tmallLink {
+    margin: 10px 0;
+    color: #999999;
+    display: block;
+    text-decoration: underline;
+}
+
+.productUnit a.tmallLink:hove {
+    text-decoration: underline;
+    color: #C40000;
+}
+
+.productUnit div.productInfo {
+    border-top: 1px solid #EEEEEE;
+    color: #999999;
+}
+
+.productUnit span.productDealNumber {
+    font-weight: bold;
+    color: #B57C5B;
+}
+
+.productUnit span.productReview {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.productUnit span.productReviewNumber {
+    font-weight: bold;
+    color: #3388BB;
+}
+
+.productUnit span.monthDeal, div.productUnit span.productReview {
+    display: inline-block;
+    width: 90px;
+    height: 29px;
+    padding: 5px 0 0 5px;
+}
+
+.productUnit span.wangwang {
+    padding-left: 3px;
+}
+.noMatch {
+    font-size: 20px;
+    width: 200px;
+    margin: 100px auto;
+    color: #888;
+}

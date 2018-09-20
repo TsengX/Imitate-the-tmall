@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.simpleLogo {
+	padding: 32px 0;
+	width: 1190px;
+	margin: auto;
+}
+
+.simpleLogo img {
+	width: 190px;
+	height: 27px;
+}
+
+.content {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	background: rgb(67,197,133);
+}
+
+/*背景图片*/
+.loginBackgroundImg {
+	display: block;
+	margin: 0 auto;
+}
+/*登录框div*/
+.loginSmallDiv {
+	position: absolute;
+	top: 91px;
+	right: 233px;
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	padding: 60px 25px 80px;
+}
+
+.login_acount_text {
+	color: #3C3C3C;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.loginInput {
+	border: 1px solid #CBCBCB;
+	margin: 20px 0;
+}
+
+.loginInputIcon {
+	margin: 0;
+	background-color: #CBCBCB;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.loginInputIcon label.glyphicon {
+	font-size: 22px;
+	position: relative;
+	left: 9px;
+	top: 9px;
+	color: #606060;
+}
+
+.loginInput input {
+	display: inline-block;
+	border: 0 solid transparent;
+	width: 244px;
+	height: 30px;
+	position: relative;
+	left: 6px;
+	top: 4px;
+}
+/*登录按钮*/
+.redButton {
+	width: 300px;
+	height: 42px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #FF0036;
+}
+
+.redButton:hover {
+	background-color: rgba(255, 0, 54, .8);
+	color: white;
+}
+
+.login-links {
+	margin-top: 25px;
+}
+
+.login-links a {
+	margin-right: 10px;
+}
+
+a {
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0036;
+}
+/*报错信息区域*/
+.loginErrorMessageDiv {
+	width: 300px;
+	position: absolute;
+	top: 5px;
+	display: none;
+	color: rgb(133,133,133);
+}
+
+.loginErrorMessageDiv div.alert {
+	padding: 5px !important;
+}

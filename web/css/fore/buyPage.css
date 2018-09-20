@@ -1,0 +1,246 @@
+/*buyPage.jsp*/
+/*天猫logo*/
+  .simpleLogo {
+    margin-top: 22px;
+    height: 27px;
+  }
+
+  .buyPageDiv {
+    margin: 20px auto;
+    max-width: 1013px;
+  }
+  /*地址div*/
+  .address {
+    margin: 20px 5px;
+    text-align: left;
+  }
+  /*输入收货地址几个字*/
+  .addressTip, .productListTip {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  table.addressTable {
+    margin: 20px 20px;
+    width: 600px;
+    font-size: 12px;
+  }
+  table.addressTable td {
+    color: #333;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 5px;
+    text-align: left;
+    height: 30px;
+  }
+  /*第一列*/
+  table.addressTable td.firstColumn {
+    width: 100px;
+  }
+  /*详细地址文本域*/
+  table.addressTable td textarea {
+    border: 1px solid #AFAFAF;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  table.addressTable td input {
+    border: 1px solid #AFAFAF;
+    width: 200px;
+  }
+  span.redSta {
+    color: red;
+    font-size: 8px;
+  }
+
+  /*产品列表所在的table*/
+  table.productListTable {
+    width: 100%;
+    /*边框折叠*/
+    border-collapse: separate;
+    font-size: 12px;
+  }
+  /*标题栏的每个单元格*/
+  table.productListTable th {
+    color: #999;
+    font-family: '宋体';
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  /*标题栏下的下划线*/
+  table.productListTable tr.rowborder {
+    background-color: #b2d1ff;
+    border-right: 2px solid #fff;
+    height: 3px;
+  }
+
+  th.productListTableFirstColumn {
+    text-align: left !important;
+  }
+  /*天猫图片*/
+  img.tmallbuy {
+    width: 15px;
+  }
+  /*天猫店铺超链*/
+  a.marketLink {
+    color: black;
+    font-size: 12px;
+    font-family: '宋体';
+    font-weight: normal;
+  }
+  a.marketLink:hover {
+    color: black;
+    font-size: 12px;
+    font-family: '宋体';
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  /*旺旺图标*/
+  span.wangwangGif {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(./img/site/wangwang.gif);
+    background-repeat: no-repeat;
+    /*背景图片无重复*/
+    background-color: transparent;
+    /*背景色: 透明*/
+    background-attachment: scroll;
+    /*滚动背景图片*/
+    background-position: -83px 0px;
+    /*向上滚动83个像素*/
+    top: 8px;
+    left: 2px;
+  }
+  /*产品列表单元格*/
+  tbody.productListTableTbody td {
+    text-align: center;
+  }
+  /*产品列表第一列*/
+  tbody.productListTableTbody td.orderItemFirstTD {
+    text-align: left;
+  }
+  /*产品信息单元格*/
+  tr.orderItemTR td {
+    border-bottom: 1px solid #E5E5E5;
+  }
+  /*订单项单元格*/
+  tr.orderItemTR td {
+    padding: 10px 0;
+  }
+  /*商品图片*/
+  img.orderItemImg {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+  }
+  /*产品信息*/
+  td.orderItemProductInfo {
+    text-align: left !important;
+  }
+  /*3个图标*/
+  td.orderItemProductInfo img {
+    height: 16px;
+  }
+  /*产品超链*/
+  a.orderItemProductLink {
+    color: #666666;
+    display: block;
+  }
+  a.orderItemProductLink:hover {
+    color: #666;
+    text-decoration: underline;
+  }
+  /*产品价格和产品数量*/
+  span.orderItemProductPrice, span.orderItemProductNumber {
+    color: #000;
+  }
+  span.orderItemUnitSum {
+    color: #FF0036;
+    font-weight: bold;
+  }
+  /*第一列和最后一列*/
+  td.orderItemFirstTD, td.orderItemLastTD {
+    border-bottom: 0px solid black !important;
+  }
+  /*普通配送字样*/
+  label.orderItemDeliveryLabel {
+    color: #666;
+    font-family: '宋体';
+    font-size: 12px;
+    font-weight: normal;
+  }
+  /*配送方式下拉*/
+  select.orderItemDeliverySelect {
+    width: 100px;
+    height: 23px;
+  }
+  /*合计div*/
+  .orderItemSumDiv {
+    margin: 0 auto;
+    padding: 20px;
+    height: 50px;
+    border-top: 2px solid #B4D0FF;
+    background-color: #F2F6FF;
+  }
+  .orderItemSumDiv-left {
+    float: left;
+    min-height: 20px
+  }
+  .orderItemSumDiv-right {
+    float: right;
+    min-height: 20px;
+  }
+  .orderItemSumDiv div,.orderItemSumDiv span {
+    display: inline-block;
+    color: #999999;
+  }
+  .orderItemSumDiv-right span {
+    color: #FF0036;
+    font-weight: bold;
+  }
+  /*给卖家留言 */
+  span.leaveMessageText {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+  }
+  /*实付款所在div*/
+  div.orderItemTotalSumDiv {
+    margin: 40px;
+    height: 40px;
+  }
+  /*提交订单按钮所在div*/
+  div.submitOrderDiv {
+    height: 40px;
+    margin: 20px 0;
+  }
+  /*实付款字样*/
+  div.orderItemTotalSumDiv span {
+    color: #999;
+  }
+  /*实际付款金额*/
+  span.orderItemTotalSumSpan {
+    color: #FF0036 !important;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #F2F6FF;
+  }
+  /*提交订单按钮*/
+  button.submitOrderButton {
+    margin: 0 10px;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    float: right;
+    color: white;
+    border: 1px solid #FF0036;
+    background-color: #FF0036;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+  }

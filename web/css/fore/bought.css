@@ -1,0 +1,242 @@
+/*订单页面div*/
+
+.orderDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+/*各种订单类型*/
+
+.orderType div {
+    border-bottom: 2px solid #E8E8E8;
+    float: left;
+}
+
+.orderType a {
+    border-right: 1px solid #E8E8E8;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.orderType a:hover {
+    color: #FF3306;
+}
+
+/*所有订单*/
+
+.orderType div.selectedOrderType {
+    border-bottom: 2px solid #FF3306;
+}
+
+.orderType div.selectedOrderType a {
+    color: #FF3306;
+}
+
+/*右边的最后一个空的div*/
+
+.orderTypeLastOne {
+    overflow: hidden;
+    float: none !important;
+    border-bottom: 2px solid #E8E8E8;
+    height: 35px;
+}
+
+table.orderListTitleTable {
+    border: 1px solid #E8E8E8;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-size: 12px;
+}
+
+.orderListTitleTable td {
+    padding: 12px 0;
+}
+
+/*订单项目所在表格*/
+
+table.orderListItemTable {
+    border: 2px solid #ECECEC;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+/*表格悬停状态*/
+
+table.orderListItemTable:hover {
+    border: 2px solid #aaa !important;
+}
+
+/*单元格*/
+
+.orderListItemTable td {
+    padding: 8px 10px;
+}
+
+/*标题行*/
+
+tr.orderListItemFirstTR {
+    background-color: #F1F1F1;
+}
+
+/*旺旺图标*/
+
+.orderItemWangWangGif {
+    display: inline-block;
+    width: 67px;
+    height: 22px;
+    background: url(../../img/site/wangwang.gif);
+    background-repeat: no-repeat;
+    /*不重复*/
+    background-color: transparent;
+    background-attachment: scroll;
+    /*滚动背景图片*/
+    background-position: -0px -0px;
+    position: relative;
+    top: 0;
+    left: 2px;
+}
+
+td.orderItemDeleteTD {
+    text-align: right;
+}
+
+/*删除按钮*/
+
+span.orderListItemDelete {
+    display: inline-block;
+    margin: 0 10px;
+    color: #999;
+    font-size: 16px;
+}
+
+/*商品图片*/
+
+.productImg {
+    width: 80px;
+    height: 80px
+}
+
+/*商品链接外部*/
+
+.orderListItemProductLinkOutDiv {
+    position: relative;
+    height: 80px;
+}
+
+/*三个图标所在div*/
+
+.orderListItemProductLinkInnerDiv {
+    position: absolute;
+    bottom: 0px;
+}
+
+/*原始价格*/
+
+.orderListItemProductOriginalPrice {
+    color: #999;
+    font-size: 14px;
+}
+
+/*促销价格*/
+
+.vorderListItemProductPrice {
+    color: #3C3C3C;
+    font-size: 14px;
+}
+
+/*数量所在td*/
+
+td.orderListItemNumberTD {
+    text-align: center;
+}
+
+/*订单项所在td*/
+
+td.orderItemOrderInfoPartTD {
+    border: 1px solid #ECECEC;
+}
+
+/*数量颜色*/
+
+span.orderListItemNumber {
+    color: #3C3C3C;
+}
+
+/*价格td*/
+
+td.orderListItemProductRealPriceTD {
+    text-align: center;
+}
+
+/*价格信息*/
+
+.orderListItemProductRealPrice {
+    color: #3C3C3C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*运费*/
+
+.orderListItemPriceWithTransport {
+    color: #6C6C6C;
+    font-size: 12px
+}
+
+/*按钮所在td*/
+
+td.orderListItemButtonTD {
+    text-align: center;
+}
+
+/*评价按钮*/
+
+button.orderListItemReview {
+    padding: 6px 12px;
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3C3C3C;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*评价按钮鼠标悬浮状态*/
+
+button.orderListItemReview:hover {
+    border-color: #FF3306;
+    color: #FF3306;
+}
+
+/*确认收货按钮*/
+
+button.orderListItemConfirm {
+    background-color: #66B6FF;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 6px 12px;
+}
+
+button.orderListItemConfirm:bover {
+    background-color: #118ADB;
+}
+
+a {
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF3306;
+}

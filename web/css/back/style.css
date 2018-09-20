@@ -1,0 +1,147 @@
+body{
+   padding-top:70px;
+}
+/*listCategory.jsp页面*/
+div.listDataTableDiv{
+    min-height:220px;
+}
+.pagination a.current{
+    font-weight:bold;
+    color:black;
+}
+
+.workingArea {
+    margin: 0 40px;
+}
+
+.workingArea img.categoryImg {
+    height: 40px;
+}
+.workingArea img.productImg {
+    height: 40px;
+}
+.pageDiv {
+    text-align: center;
+}
+
+.navitagorDiv img {
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 45px;
+}
+
+div.addDiv{
+    width:400px;
+    margin:0px auto;
+}
+
+table.addTable{
+    width:100%;
+}
+
+table.addTable td{
+    padding:5px;
+}
+
+
+td{
+    font-size:14px;
+}
+th{
+    font-size:14px;
+}
+/*editCategory.jsp*/
+div.editDiv{
+    width:400px;
+    margin:0px auto;
+    
+}
+table.editTable {
+    width: 100%;
+}
+table.editTable td {
+    padding: 5px;
+}
+
+/*listProduct.jsp*/
+.product_Th_Width1 {
+    width: 53px;
+}
+.product_Th_Width2 {
+    width: 80px;
+}
+.product_Th_Width3 {
+    width: 42px;
+}
+.listDataTableDiv img {
+    height: 40px;
+}
+/*amdinFooter.jsp*/
+div.footer{
+    margin:20px;
+}
+
+/*listProductImage.jsp*/
+.addPictureDiv {
+    width: 400px;
+}
+.addPictureTable {
+    margin: 10px auto;
+}
+.addPictureTableTD {
+    padding:0 100px;
+    text-align:center;  
+    vertical-align: top;
+}
+.addPictureTable img {
+    height: 50px;
+}
+
+/*editProductValue.jsp*/
+.editPVDiv{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+.pvName{
+    display: inline-block;
+    width: 100px;    
+    color: #555555;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.eachPV{
+    float: left;
+    margin: 5px;
+}
+.pvValue{
+    display:inline-block;
+    width: 200px;
+    border: 1px solid lightgray;
+    padding: 0px;
+}
+.pvValue input{
+    border-width: 0px;
+    width: 198px;
+}
+
+/*listUser.jsp*/
+.listUserDiv {
+    /*margin: 10px auto;*/
+}
+.table-user {
+    width: 980px;
+    margin: 10px auto;
+}
+
+/*listOrder.jsp*/
+div.orderPageOrderItem{
+    width:100%;
+    padding:20px;
+}
+table.orderPageOrderItemTable td{
+    padding:5px;
+}
+tr.orderPageOrderItemTR{
+    display:none;
+}

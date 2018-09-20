@@ -1,0 +1,164 @@
+/*整个购物车div*/
+.cartDiv {
+	max-width: 1013px;
+	margin: 10px auto;
+	color: black;
+}
+/****商品结算部分*/
+/*上面的结算按钮*/
+.cartTitle button {
+	background-color: #AAAAAA;
+	border: 1px solid #AAAAAA;
+	border-radius: 2px;
+	color: white;
+	width: 55px;
+	height: 25px;
+}
+/*上面的价格信息*/
+.cartTitlePrice {
+	color: #FF0036;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+/*/购物车的页,灰色那条*/
+.cartFoot {
+	background-color: #E5E5E5;
+	line-height: 50px;
+	margin: 20px 0;
+	color: black;
+	padding-left: 20px;
+}
+/*下面的结算按钮*/
+.cartFoot button {
+	background-color: #AAAAAA;
+	border: 0px solid #AAAAAA;
+	color: white;
+	width: 120px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+/*选择框*/
+img.cartProductItemIfSelected, img.selectAllItem {
+	cursor: pointer;
+}
+/*商品合计数量和总价格*/
+.cartSumNumber {
+	color: #FF0036;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.cartSumPrice {
+	color: #FF0036;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*商品信息部分*/
+/*商品table*/
+table.cartProductTable {
+	width: 100%;
+	font-size: 12px;
+}
+/*商品所在的每一行*/
+tr.cartProductItemTR {
+	border: 1px solid #CCCCCC;
+}
+/*商品所在的每一列*/
+tr.cartProductItemTR td {
+	padding: 20px 20px;
+}
+/*表头信息的每一列*/
+table.cartProductTable th {
+	font-weight: normal;
+	color: #3C3C3C;
+	padding: 20px 20px;
+}
+/*商品图片*/
+.cartProductImg {
+	padding: 1px;
+	border: 1px solid #EEEEEE;
+	width: 80px;
+	height: 80px;
+}
+/*图片所在列*/
+table.cartProductTable th.selectAndImage {
+	width: 140px;
+}
+/*最后一列*/
+table.cartProductTable th.operation {
+	width: 70px;
+}
+/*产品链接所在div*/
+.cartProductLinkOutDiv {
+	position: relative;
+	/*因为三个图标所在的cartProductLinkInnerDiv需要用到绝对定位*/
+	height: 80px;
+	width: 400px;
+}
+/*产品连接*/
+a.cartProductLink {
+	color: #3C3C3C;
+}
+
+a.cartProductLink:hover {
+	color: #FF0036;
+	text-decoration: underline;
+}
+/*产品连接下面的三个图标所在div*/
+.cartProductLinkInnerDiv {
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+}
+/*原始价格和促销价格*/
+span.cartProductItemOringalPrice {
+	text-decoration: line-through;
+	color: #9C9C9C;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+span.cartProductItemPromotionPrice {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0036;
+}
+/*调整数量div*/
+.cartProductChangeNumberDiv {
+	border: 1px solid #E5E5E5;
+	width: 80px;
+}
+/*增加和减少*/
+.cartProductChangeNumberDiv a {
+	width: 14px;
+	display: inline-block;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+/*数量输入框*/
+.cartProductChangeNumberDiv input {
+	border: 1px solid #AAAAAA;
+	width: 42px;
+	display: inline-block;
+}
+/*小计金额*/
+span.cartProductItemSmallSumPrice {
+	display: inline-block;
+	width: 85px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0036;
+}
+/*是否选中的图片*/
+img.cartProductItemIfSelected, img.selectAllItem {
+	display: inline-block;
+	cursor: pointer;
+}

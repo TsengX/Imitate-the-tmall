@@ -1,0 +1,454 @@
+
+.productPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+.categoryPictureInProductPageDiv {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*imgAndInfo.jsp*/
+.imgAndInfo {
+    margin: 40px 20px
+}
+.imgInimgAndInfo {
+    width: 100px;
+    float: left;
+}
+.infoInimgAndInfo {
+    padding: 0 20px;
+    overflow: hidden;
+    /*隐藏溢出部分。 结合图片div的float:left,就可以做到基本信息div和图片div水平摆放，并且基本信息div自动占用剩下所有的宽度*/
+}
+.infoInimgAndInfo div.productTitle {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.infoInimgAndInfo div.productSubTitle {
+    color: #DD2727;
+    font-size: 12px;
+    margin: 0 10px;
+}
+.infoInimgAndInfo div.juhuasuan {
+    background-color: #2DA77A;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.infoInimgAndInfo span.juhuasuanBig {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 黑体;
+}
+.infoInimgAndInfo span.juhuasuanTime {
+    color: #FFC057;
+    font-weight: bold;
+}
+.infoInimgAndInfo div.originalDiv {
+    margin-top: 5px;
+}
+.infoInimgAndInfo div.productPriceDiv {
+    background-image: url(../../img/site/priceBackground.png);
+    height: 102px;
+    padding: 10px;
+    color: #666666;
+}
+.infoInimgAndInfo div.vouchersDiv {
+    margin-top: 5px;
+}
+.infoInimgAndInfo div.vouchersDiv img {
+    display: inline-block;
+    height: 16px;
+}
+.infoInimgAndInfo div.originalPriceDiv {
+    margin-top: 5px;
+}
+.infoInimgAndInfo span.originalPriceDesc {
+    color: #999999;
+    display: inline-block;
+    width: 68px;
+}
+.infoInimgAndInfo span.originalPrice {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333333;
+    text-decoration: line-through;
+}
+.infoInimgAndInfo span.promotionPriceYuan {
+    font-family: Arial;
+    font-size: 18px;
+    color: #FF0036;
+}
+.infoInimgAndInfo span.promotionPrice {
+    color: #FF0036;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+}
+.infoInimgAndInfo span.promotionPriceDesc {
+    color: #999999;
+    display: inline-block;
+    width: 68px;
+    position: relative;
+    left: 0;
+    top: -10px;
+}
+.infoInimgAndInfo div.productSaleAndReviewNumber {
+    margin: 20px 0;
+    border-top: 1px dotted #C9C9C9;
+    border-bottom: 1px dotted #C9C9C9;
+    padding: 10px
+}
+.infoInimgAndInfo div.productSaleAndReviewNumber div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+}
+.infoInimgAndInfo div.productSaleAndReviewNumber div:first-child {
+    border-right: 1px solid #E5DFDA;
+}
+.infoInimgAndInfo div.productNumber {
+    color: #999999;
+}
+/*输入数字的input所在的span*/
+.infoInimgAndInfo span.productNumberSettingSpan {
+    border: 1px solid #999;
+    display: inline-block;
+    width: 43px;
+    height: 32px;
+    padding-top: 7px;
+}
+.infoInimgAndInfo input.productNumberSetting {
+    border: 0px;
+    height: 80%;
+    width: 80%;
+}
+.productNumber span.updown img {
+    display: inline-block;
+    vertical-align: top;
+}
+.productNumber span.updown {
+    border: 1px solid #999;
+    display: block;
+    width: 20px;
+    height: 14px;
+    text-align: center;
+    padding-top: 4px;
+}
+.productNumber span.updownMiddle {
+    height: 4px;
+    display: block;
+}
+.productNumber span.arrow {
+    display: inline-block;
+    width: 22px;
+    height: 32px;
+    vertical-align: bottom;
+}
+.serviceCommitment {
+    margin: 20px 0px;
+}
+
+.infoInimgAndInfo span.serviceCommitmentDesc {
+    color: #999999;
+}
+.infoInimgAndInfo span.serviceCommitmentLink a {
+    color: #666666;
+}
+.buyDiv {
+    margin: 20px auto;
+    text-align: center;
+}
+.buyDiv button {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 180px;
+    height: 40px;
+}
+.buyDiv button.buyButton {
+    border: 1px solid #FF0036;
+    background-color: #ffeded;
+    font-family: 'Microsoft Yahei';
+    color: #FF0036;
+    font-size: 16px;
+}
+.buyDiv button.addCartButton {
+    border: 1px solid #FF0036;
+    background-color: #FF0036;
+    color: #fff;
+    font-family: 'Microsoft Yahei';
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+}
+.redColor {
+    color: #FF0036;
+}
+.boldWord {
+    font-weight: bold;
+}
+
+/*imgInimgAndInfo.jsp*/
+.imgInimgAndInfo {
+    width: 400px;
+    float: left;
+}
+.imgAndInfo img.bigImg {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #F2F2F2;
+}
+.imgAndInfo .smallImageDiv {
+    width: 80%;
+    margin: 20px auto;
+}
+.imgAndInfo img.smallImage {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+.imgAndInfo img.smallImage:hover {
+    border: 2px solid black;
+}
+
+/*productReview.jsp*/
+.productDetailDiv {
+    width: 790px;
+    margin: 40px auto;
+}
+/*商品详情头部div*/
+.productDetailTopPart {
+    border: 1px solid #DFDFDF;
+    border-left-width: 0px;
+}
+a.selected {
+    position: relative;
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #b10000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+}
+a.selected:before {
+    content: "";
+    display: block;
+    border:1px solid #ff0036;
+    width: 90px;
+    height: 0px;
+    position: absolute;
+    top: -1px;
+    margin-left: -1px;
+    background-color: #ff0036;
+}
+a.selected:after {
+    content: "";
+    display: block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FF0036 transparent transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+/*累计评论*/
+a.productDetailTopReviewLink {
+    padding: 0 20px;
+    border-right: 1px dotted #D2D2D2;
+    color: #333333;
+}
+span.productDetailTopReviewLinkNumber {
+    color: #3355B9;
+}
+/*产品参数部分div*/
+.productParamterPart {
+    border: 1px solid #DFDFDF;
+    padding: 40px;
+}
+.productParamter {
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.productParamterList span {
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 8px 0;
+    color: #666666;
+}
+.productDetailImagesPart img {
+    display: block;
+
+    width: 790px;
+    margin: 20px 0;
+}
+
+/*评价页面父div*/
+.productReviewDiv {
+    width: 790px;
+    margin: 40px auto;
+}
+/*累计评价头部div*/
+.productReviewTopPart {
+    border: 1px solid #DFDFDF;
+}
+
+.productReviewTopPartSelectedLink {
+    padding: 0 20px;
+    color: #333333;
+}
+
+a.selected {
+    position: relative;
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #FF0036;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+}
+
+/*评价内容div*/
+.productReviewContentPart {
+    padding-top: 50px;
+}
+
+.productReviewItem {
+    border-bottom: 1px solid #E3E3E3;
+    margin: 10px 0;
+}
+
+.productReviewItem div.productReviewItemDesc {
+    width: 80%;
+    display: inline-block;
+    color: #333333;
+    margin: 5px 20px;
+    float: left;
+}
+
+.productReviewItemDate {
+    margin: 15px 0 0 0;
+    color: #CCCCCC;
+}
+
+.productReviewItem div.productReviewItemUserInfo {
+    color: #404040;
+    margin: 5px 20px;
+    padding: 20px 0;
+}
+
+span.userInfoGrayPart {
+    color: #999999;
+}
+
+a:hover {
+    color: #FF0036;
+    text-decoration: none;
+}
+
+/*productDetail.css*/
+.productDetailDiv {
+    width: 790px;
+    margin: 40px auto;
+}
+/*商品详情头部div*/
+.productDetailTopPart {
+    border: 1px solid #DFDFDF;
+    border-left-width: 0px;
+}
+
+a.selected {
+    position: relative;
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #b10000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+}
+
+a.selected:before {
+    content: "";
+    display: block;
+    border: 1px solid #ff0036;
+    width: 90px;
+    height: 0px;
+    position: absolute;
+    top: -1px;
+    margin-left: -1px;
+    background-color: #ff0036;
+}
+
+a.selected:after {
+    content: "";
+    display: block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FF0036 transparent transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+/*累计评论*/
+a.productDetailTopReviewLink {
+    padding: 0 20px;
+    border-right: 1px dotted #D2D2D2;
+    color: #333333;
+}
+
+span.productDetailTopReviewLinkNumber {
+    color: #3355B9;
+}
+/*产品参数部分div*/
+.productParamterPart {
+    border: 1px solid #DFDFDF;
+    padding: 40px;
+}
+
+.productParamter {
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.productParamterList span {
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 8px 0;
+    color: #666666;
+}
+
+.productDetailImagesPart img {
+    display: block;
+    width: 790px;
+    margin: 20px 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0036;
+}

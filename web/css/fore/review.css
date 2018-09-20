@@ -1,0 +1,233 @@
+.reviewDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+.reviewProductInfoImg {
+    float: left;
+    width: 464px;
+    border: 1px solid #E7E7E7;
+    text-align: center;
+}
+
+/*商品图片*/
+
+.reviewProductImg {
+    width: 400px;
+    height: 400px;
+}
+
+.reviewProductInfoRightDiv {
+    padding: 30px 20px;
+    border-top: 1px solid #E7E7E7;
+    overflow: hidden;
+}
+
+.reviewProductInfoRightText a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.reviewProductInfoRightText a:hover {
+    color: #333;
+    text-decoration-line: none;
+}
+
+/*商品信息表格*/
+
+.reviewProductInfoTable {
+    margin: 20px 10px;
+    font-size: 12px;
+}
+
+.reviewProductInfoTable td {
+    padding-bottom: 5px;
+    color: #999;
+}
+
+.reviewProductInfoTablePrice {
+    color: #FF0036;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reviewProductInfoTableSellNumber {
+    color: #FF0036;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*灯泡小图片*/
+
+.reviewProductInfoRightBelowImg {
+    padding: 0;
+    display: inline-block;
+    height: 42px;
+    width: 23px;
+    background-color: white;
+    background-image: url(../../img/site/reviewLight.png);
+    border: 1px solid #E1E1E1;
+    background-repeat: no-repeat;
+}
+
+/*购买日期信息*/
+
+.reviewProductInfoRightBelowText {
+    display: inline-block;
+    width: 220px;
+    height: 42px;
+    padding: 4px;
+    color: #666;
+    font-size: 12px;
+    border: 1px solid #EFEFEF;
+    position: relative;
+    top: -7.5px;
+    left: -4px;
+}
+
+/*评价部分*/
+
+/*累计评价div*/
+
+.reviewStasticsDiv {
+    margin-top: 20px;
+}
+
+/*累计评价左侧div*/
+
+.reviewStatics-left {
+    width: 180px;
+    float: left;
+}
+
+.reviewStatics-left-top {
+    background-color: #FF0036;
+    height: 6px;
+}
+
+.reviewStasticsLeft-content {
+    line-height: 29px;
+    border-left: 1px solid #D5D4D4;
+    border-right: 1px solid #D5D4D4;
+    background-color: #F6F5F1;
+    text-align: center;
+    color: #363535;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reviewStastics-left-foot {
+    height: 6px;
+    border-left: 1px solid #D5D4D4;
+    border-bottom: 1px solid #D5D4D4;
+    background-color: #F6F5F1;
+}
+
+.reviewStastic-number {
+    color: #284CA5;
+}
+
+.reviewStastics-right {
+    overflow: hidden;
+}
+
+.reviewStastics-right-empty {
+    height: 35px;
+}
+
+.reviewStastics-right-Foot {
+    background-color: #F6F5F1;
+    border: 1px solid #D5D4D4;
+    border-left-width: 0px;
+    height: 6px;
+}
+
+/*进行评价div*/
+
+.makeReviewDiv {
+    border: 1px solid #D1CCC8;
+    margin: 20px 0;
+    background-color: #EFEFEF;
+}
+
+.makeReviewText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 40px;
+}
+
+/*评价的表格*/
+
+table.makeReviewTable {
+    margin: 20px 40px;
+    font-size: 12px;
+}
+
+.makeReviewTable td {
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    background-color: white;
+}
+
+.makeReviewTable textarea {
+    border-width: 0;
+    resize: nonw;
+    width: 420px;
+    height: 120px;
+}
+
+/*评价商品那一列*/
+
+td.makeReviewTableFirstTD {
+    background-color: #F6F6F6;
+}
+
+.makeReviewButtonDiv {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.makeReviewButtonDiv button {
+    width: 72px;
+    height: 26px;
+    background-color: #C40000;
+    border-width: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.reviewDate {
+	width: 100px;
+}
+
+.reviewDivlistReviewsEach div {
+	display: inline-block;
+}
+
+.reviewDate {
+	color: #CCCCDD;
+}
+
+.reviewContent {
+	color: #333333;
+	width: 698px;
+}
+
+.reviewUserInfo {
+	color: #333333;
+}
+
+.reviewDivlistReviewsEach {
+	padding: 20px;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.reviewUserInfoAnonymous {
+	color: #CCCCDD;
+	margin-left: 5px;
+}

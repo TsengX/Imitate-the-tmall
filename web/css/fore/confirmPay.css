@@ -1,0 +1,197 @@
+/* confirmPayPage.jsp */
+/*确认支付div */
+
+.confirmPayPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+.confirmPayImgDiv {
+    margin: 5px auto 80px auto;
+    width: 900px;
+    position: relative;
+}
+
+.confirmPayImgDiv div {
+    color: #999;
+}
+
+.confirmPayTime1 {
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+.confirmPayTime2 {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+.confirmPayTime3 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+/*同意付款字样*/
+
+.confirmPayOrderInfoText {
+    margin: 10px 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ADC8E6;
+}
+
+/*订单项列表div*/
+
+.confirmPayOrderItemDiv {
+    margin: 0 20px;
+}
+
+.confirmPayOrderItemText {
+    margin: 20px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+}
+
+/*订单项列表所在表格 */
+
+.confirmPayOrderItemTable {
+    border: 1px solid #DDD;
+    width: 100%;
+}
+
+.confirmPayOrderItemTable thead {
+    background-color: #E8F2FF;
+    color: #404040;
+    height: 33px;
+}
+
+.confirmPayOrderItemTable tr {
+    border: 1px solid #DDD;
+}
+
+.confirmPayOrderItemTable th,
+.confirmPayOrderItemTable td {
+    text-align: center;
+}
+
+.confirmPayOrderItemTable td {
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+/*商品图片*/
+
+.confirmPayOrderItemTable tbody td img {
+    width: 50px;
+}
+
+td.confirmPayOrderItemProductLink {
+    text-align: left !important;
+}
+
+/*商品单价*/
+
+.conformPayProductPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+.confirmPayOrderItemSumPrice {
+    color: #FF0036;
+}
+
+a {
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0036;
+}
+
+/*订单详情div*/
+
+.confirmPayOrderDetailDiv {
+    margin: 40px;
+}
+
+.confirmPayOrderDetailTable {
+    width: 100%;
+    border-top: 1px solid #DDD;
+}
+
+/*单元格*/
+
+.confirmPayOrderDetailTable td {
+    padding: 8px;
+    color: black;
+    font-size: 14px;
+}
+
+/*旺旺图标*/
+
+.confirmPayOrderDetailWangWangGif {
+    display: inline-block;
+    width: 67px;
+    height: 22px;
+    background-image: url(../../img/site/wangwang.gif);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: relative;
+    left: 2px;
+}
+
+.confirmPayButtonDiv {
+    border: 1px solid #F58B0F;
+    padding: 26px 100px;
+}
+
+.confirmPayButtonDiv li {
+    list-style: disc;
+    line-height: 28px;
+}
+
+/*支付警告*/
+
+.alert-msg {
+    color: #F00000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.refund-tips {
+    font-size: 14px;
+}
+
+.refund-tips a {
+    color: -webkit-link;
+    text-decoration: none;
+}
+
+.refund-tips a:hover {
+    text-decoration: underline;
+}
+
+/*确定按钮*/
+
+.confirmPayButton {
+    margin: 20px 100px;
+    width: 67px;
+    height: 30px;
+    border: 1px solid #E67C00;
+    background-color: #F4A21D;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+}
+
+.confirmPayButton:hover {
+    background-color: #F6AE30;
+}
